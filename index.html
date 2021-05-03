@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hand Man</title>
+  </head>
+
+  <body class="main-body"> 
+    <div id="main-div">
+      <h2 style="text-align: center">Hang Man!</h2>
+      <div class="word-container" >
+        <h4 id="word"></h4>
+      </div>
+      <div id="keyboard">
+        <button class="btn btn-primary btn-sm">a</button>
+        <button class="btn btn-primary btn-sm">a</button>
+        <button class="btn btn-primary btn-sm">a</button>
+      </div>
+      <div>
+        <button type="button" id="reset-btn" onclick="Reset()" class="btn btn-outline-warning">Reset</button>
+      </div>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.main-body {
+  padding: 20px;
+  /* background-color: rgb(99, 99, 99); */
+  background-image: linear-gradient(
+    to right,
+    rgb(111, 208, 253),
+    rgb(255, 130, 255)
+  );
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 7px;
+}
+.word-container {
+  text-align: center;
+  text-size-adjust: 200%;
+  margin: 30px;
+}
+
+#reset-btn{
+  margin-right: 50%;
+  margin-left: 50%;
+  margin-top: 30px;
+
+  border-radius: 15%;
+  color: black;
+  background-color:rgb(193, 141, 241);
+}
